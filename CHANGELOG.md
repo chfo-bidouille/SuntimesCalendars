@@ -1,6 +1,6 @@
 ### ~
 
-### v0.6.3 (2026-04-22)
+### v0.6.3 (2026-04-30)
 * updates translation to French (#73 by chfo-bidouille).
 
 ### v0.6.2 (2026-02-17)
