@@ -11,12 +11,6 @@
         <item>@string/textSize_large</item>
         <item>@string/textSize_xlarge</item>
     </string-array>
-    <string-array name="textSize_values" translatable="false">  <!-- one-to-one with textSize_display -->
-        <item>SMALL</item>
-        <item>NORMAL</item>
-        <item>LARGE</item>
-        <item>XLARGE</item>
-    </string-array>
 
     <string name="timeMode_noon">Midi solaire</string>
     <string name="sunrise">Lever du soleil</string>
@@ -58,10 +52,10 @@
     <string name="moonrise">Lever de la lune</string>
     <string name="moonset">Coucher de la lune</string>
 
-    <string name="timeMode_equinox_vernal">Équinoxe du printemps</string>
-    <string name="timeMode_equinox_autumnal">Équinoxe d\'automne</string>
-    <string name="timeMode_solstice_summer">Solstice d\'été</string>
-    <string name="timeMode_solstice_winter">Solstice d\'hiver</string>
+    <string name="timeMode_equinox_vernal">Équinoxe du printemps</string>      <!-- setting -->
+    <string name="timeMode_equinox_autumnal">Équinoxe d\'automne</string>      <!-- setting -->
+    <string name="timeMode_solstice_summer">Solstice d\'été</string>      <!-- setting -->
+    <string name="timeMode_solstice_winter">Solstice d\'hiver</string>      <!-- setting -->
 
     <string name="timeMode_cross_spring">Cross-Quarter printemps</string>
     <string name="timeMode_cross_autumnal">Cross-Quarter automne</string>
@@ -166,13 +160,6 @@
         <item>SMS</item>
         <!--<item>Alarm</item>-->
     </string-array>
-    <string-array name="reminder_method_values" translatable="false">   <!-- Reminder.METHOD_ values -->
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <!--<item>4</item>-->
-    </string-array>
 
     <string-array name="reminder_minutes_display">   <!-- display values -->
         <item>0 minute</item>
@@ -196,40 +183,12 @@
         <item>2 semaines</item>
         <item>4 semaines</item>
     </string-array>
-    <string-array name="reminder_minutes_values" translatable="false">     <!-- minute config values -->
-        <item>0</item>
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-        <item>45</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-        <item>360</item>
-        <item>540</item>
-        <item>720</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>10080</item>
-        <item>20160</item>
-        <item>40320</item>
-    </string-array>
 
     <string-array name="calendars_window_display">   <!-- display values (one-to-one with getFix_maxAge_values) -->
         <item>une année</item>
         <item>deux ans</item>
         <item>cinq ans</item>
         <item>dix ans</item>
-    </string-array>
-    <string-array name="calendars_window_values" translatable="false">     <!-- ms config values (one-to-one with getFix_maxAge_display) -->
-        <item>31536000000</item>
-        <item>63072000000</item>
-        <item>157680000000</item>
-        <item>315360000000</item>
     </string-array>
 
     <plurals name="units_days_ago">
@@ -353,10 +312,7 @@
     <!-- distances (meters, feet, etc) -->
     <string name="lengthUnits_metric">Métrique</string>
     <string name="lengthUnits_imperial">Impérial</string>
-    <string-array name="lengthUnits_values" translatable="false">
-        <item>METRIC</item>
-        <item>IMPERIAL</item>
-    </string-array>
+
     <string-array name="lengthUnits_display"> <!-- one-to-one with lengthUnits_values -->
         <item>@string/lengthUnits_metric</item>
         <item>@string/lengthUnits_imperial</item>
@@ -487,54 +443,5 @@
         <item>Russe</item>
         <item>Tchèque</item>
     </string-array>
-    <string-array name="locale_values" translatable="false">  <!-- one-to-one with locale_display -->
-        <item>en</item>
-        <item>eo</item>
-        <item>fr</item>
-        <item>de</item>
-        <item>hu</item>
-        <item>it</item>
-        <item>pl</item>
-        <item>es_ES</item>
-        <item>ca</item>
-        <item>eu</item>
-        <item>nb</item>
-        <item>zh_TW</item>
-        <item>pt_BR</item>
-        <item>nl</item>
-        <item>ru</item>
-        <item>cs</item>
-    </string-array>
-    <string-array name="locale_credits" translatable="false">  <!-- one-to-one with locale_display -->
-        <item />
-        <item><![CDATA[<a href=https://github.com/Verdulo>Verdulo</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/Jej>Jej</a>|<a href=https://github.com/Aloha>Aloha</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/HerHde>Henrik "HerHde" Hüttemann</a>|<a href=https://github.com/Wolkenschieber>Wolkenschieber</a>]]></item>
-        <item><![CDATA[Erci]]></item>
-        <item><![CDATA[<a href=https://github.com/cao->Matteo Caoduro</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/Verdulo>Verdulo</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/Raulvo>Raulvo</a>|<a href=https://github.com/gnusuari0>gnusuari0</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/Raulvo>Raulvo</a>|<a href=https://github.com/gnusuari0>gnusuari0</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/beriain>beriain</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/FTno>FTno</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/pggdt>ft42</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/NetoSilva>Neto Silva</a>|<a href=https://github.com/naoliv>Nelson&#160;A.&#160;de&#160;Oliveira</a>|<a href=https://github.com/efraletti>Enrico S. B. Fraletti</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/Joppla>Joppla</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/ddanilov>ddanilov</a>|<a href=https://github.com/rchintsov>Ruslan&#160;Chintsov</a>]]></item>
-        <item><![CDATA[<a href=https://github.com/utaxiu>utaxiu</a>]]></item>
-    </string-array>
-
-    <!-- pref defaults -->
-    <string name="def_app_calendars_enabled" translatable="false">false</string>
-    <string name="def_calendars_window" translatable="false">31536000000,63072000000</string>
-    <string name="def_calendars_window0" translatable="false">31536000000</string>
-    <string name="def_calendars_window1" translatable="false">63072000000</string>
-    <string name="def_calendars_calendar_civiltwilight" translatable="false">false</string>
-    <string name="def_calendars_calendar_nauticaltwilight" translatable="false">false</string>
-    <string name="def_calendars_calendar_astrotwilight" translatable="false">false</string>
-    <string name="def_calendars_calendar_moonrise" translatable="false">false</string>
-    <string name="def_calendars_calendar_moonphase" translatable="false">true</string>
-    <string name="def_calendars_calendar_moonapsis" translatable="false">false</string>
-    <string name="def_calendars_calendar_solstice" translatable="false">true</string>
 
 </resources>
