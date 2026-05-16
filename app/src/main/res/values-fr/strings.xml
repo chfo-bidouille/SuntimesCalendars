@@ -263,7 +263,7 @@
     <string name="template_dialog_saved_toast">Modèle enregistré</string>
     <string name="template_dialog_defaults_toast">Restaurer les modèles par défaut</string>
 
-    <string name="templatestrings_dialog_msg">Valeurs d'événements'</string>
+    <string name="templatestrings_dialog_msg">Valeurs d\'événements\'</string>
     <string name="templatestrings_dialog_saved_toast">Valeurs enregistrées</string>
     <string name="templatestrings_dialog_defaults_toast">Restaurer les valeurs par défaut</string>
 
